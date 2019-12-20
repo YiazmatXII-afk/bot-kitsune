@@ -63,4 +63,4 @@ bot.on('guildMemberAdd', member => {
     }).catch(console.error)
 });
 
-bot.login(config.token);
+bot.login(process.env.BOT_TOKEN);
